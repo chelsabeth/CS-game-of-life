@@ -10,6 +10,18 @@
 - [ ] Application includes a section outlining the rules to Conway's "Game of Life"
 
 
+## Custom Features
+`Implement at least 3 of the following features:`
+- [ ] Create a few sample cell configurations that users can load and run
+- [ ] Add an option that creates a random cell configuration that users can run
+- [ ] Add additional cell properties, like color or size, and incorporate them into your visualization
+- [ ] Allow users to specify the speed of the simulation
+- [ ] Provide functionality to manually step through the simulation one generation at a time, as opposed to animating automatically
+- [ ] Allow users to change the dimension of the grid being displayed
+- [ ] Given a specific generation, calculate the configuration of cells at that point in time, and jump to that state, bypassing animation (i.e. skip ahead n generations)
+- [ ] If you have an idea for a custom feature on this list, run it by your TL or instructor
+
+
 ## Rules of Conways Game of Life
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation
 2. Any live cell with two or three live neighbours lives on to the next generation
@@ -34,8 +46,7 @@ Visualizing the "Game of Life" 👇
 `The main entry point of your application should house the visualization of this cellular automaton. Include necessary components, such as:`
 * grid to display cells.
 * cell objects or components that, at a minimum, should have:
-    * properties
-    * current state: (alive, dead), (black, white)
+    * properties: current state: (alive, dead), (black, white)
 
 `Clickable/Tappable:`
 * can be clicked to allow user to setup initial cell configuration should NOT be clickable while simulation is running
