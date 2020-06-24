@@ -24,8 +24,8 @@ visualizing the "Game of Life" 👇
 `The main entry point of your application should house the visualization of this cellular automaton. Include necessary components, such as:`
 * grid to display cells.
 * cell objects or components that, at a minimum, should have:
-    `properties`
-    `current state: (alive, dead), (black, white)`
+    * properties
+    * current state: (alive, dead), (black, white)
 
 `Clickable/Tappable:`
 * can be clicked to allow user to setup initial cell configuration should NOT be clickable while simulation is running
@@ -38,8 +38,7 @@ visualizing the "Game of Life" 👇
 * button(s) that start & stop the animation
 * button to clear the grid
 
-`Write an algorithm that:`
-implements the following basic steps:
+`Write an algorithm that implements the following basic steps:`
 * for each cell in the current generation's grid:
     * examine state of all eight neighbors - it's up to you whether you want cells to wrap around the grid and consider cells on the other side or not
     * apply rules of life to determine if this cell will change states
