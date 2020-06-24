@@ -1,9 +1,29 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
 
-ReactDOM.render(
-  <p>"Hello World!"</p>,
-  document.getElementById('root')
-);
+class Grid extends React.Component {
+  render() {
+    
+  }
+}
 
+class Main extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      generation: 0,
+    }
+  }
+  render() {
+    return (
+      <div>
+        <h1>The Game of Life - By Chelsea Wetzel</h1>
+        <Grid/>
+        <h2>Generation: {this.state.generation}</h2>
+      </div>
+    );
+  }
+}
+
+ReactDOM.render(<Main />, document.getElementById("root"));
