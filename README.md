@@ -19,7 +19,7 @@
 
 
 ## Building Your App
-visualizing the "Game of Life" 👇
+Visualizing the "Game of Life" 👇
 
 `The main entry point of your application should house the visualization of this cellular automaton. Include necessary components, such as:`
 * grid to display cells.
