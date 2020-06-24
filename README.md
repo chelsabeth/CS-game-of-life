@@ -12,14 +12,14 @@
 
 ## Custom Features
 `Implement at least 3 of the following features:`
-- [ ] Create a few sample cell configurations that users can load and run
-- [ ] Add an option that creates a random cell configuration that users can run
+- [X] Create a few sample cell configurations that users can load and run
+- [X] Add an option that creates a random cell configuration that users can run
 - [ ] Add additional cell properties, like color or size, and incorporate them into your visualization
-- [ ] Allow users to specify the speed of the simulation
+- [X] Allow users to specify the speed of the simulation
 - [ ] Provide functionality to manually step through the simulation one generation at a time, as opposed to animating automatically
-- [ ] Allow users to change the dimension of the grid being displayed
+- [X] Allow users to change the dimension of the grid being displayed
 - [ ] Given a specific generation, calculate the configuration of cells at that point in time, and jump to that state, bypassing animation (i.e. skip ahead n generations)
-- [ ] If you have an idea for a custom feature on this list, run it by your TL or instructor
+**If you have an idea for a custom feature on this list, run it by your TL or instructor**
 
 
 ## Rules of Conways Game of Life
