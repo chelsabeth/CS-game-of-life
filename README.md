@@ -6,8 +6,8 @@
 - [X] Display includes a grid of cells, at least 25x25, that can be toggled to be alive or dead
 - [X] Display includes working buttons that start / stop the animation and clear the grid
 - [X] Algorithm to generate new generations of cells correctly implemented
-- [ ] At least `3 features` from Custom Features section successfully implemented
-- [ ] Application includes a section outlining the rules to Conway's "Game of Life"
+- [X] At least `3 features` from Custom Features section successfully implemented
+- [X] Application includes a section outlining the rules to Conway's "Game of Life"
 
 
 ## Custom Features

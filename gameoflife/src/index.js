@@ -59,22 +59,22 @@ class Buttons extends React.Component {
     return (
       <div className="center">
         <ButtonToolbar>
-          <button className="btn btn-default" onClick={this.props.playButton}>
+          <button className="btn" onClick={this.props.playButton}>
             Play
           </button>
-          <button className="btn btn-default" onClick={this.props.pauseButton}>
+          <button className="btn" onClick={this.props.pauseButton}>
             Pause
           </button>
-          <button className="btn btn-default" onClick={this.props.clear}>
+          <button className="btn" onClick={this.props.clear}>
             Clear
           </button>
-          <button className="btn btn-default" onClick={this.props.slow}>
+          <button className="btn" onClick={this.props.slow}>
             Slow
           </button>
-          <button className="btn btn-default" onClick={this.props.fast}>
+          <button className="btn" onClick={this.props.fast}>
             Fast
           </button>
-          <button className="btn btn-default" onClick={this.props.seed}>
+          <button className="btn" onClick={this.props.seed}>
             Seed
           </button>
           <DropdownButton
@@ -224,14 +224,18 @@ class Main extends React.Component {
           seed={this.seed}
           gridSize={this.gridSize}
         />
+        <h2>Generation: {this.state.generation}</h2>
         <Grid
           gridFull={this.state.gridFull} // from our state
           rows={this.rows} // props from Grid
           cols={this.cols}
           selectBox={this.selectBox}
         />
-        <h2>Generation: {this.state.generation}</h2>
-        <p>Created By Chelsea Wetzel</p>
+        <h5>Rules:</h5>
+        <p>1. Any live cell with fewer than two live neighbours dies, as if by underpopulation</p>
+        <p>2. Any live cell with two or three live neighbours lives on to the next generation</p>
+        <p>3. Any live cell with more than three live neighbours dies, as if by overpopulation</p>
+        <p>4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction</p>
       </div>
     );
   }

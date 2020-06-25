@@ -1,5 +1,12 @@
+html {
+  height: 100%;
+}
+
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png) 
+  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png);
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
   
 .box {
@@ -37,7 +44,7 @@ body {
   margin-top: 20px;
 }
   
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, p {
   color: white;
   margin: auto;
   text-align: center;
@@ -47,4 +54,15 @@ h1, h2, h3, h4 {
 
 h4 {
   margin-top: 0px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
