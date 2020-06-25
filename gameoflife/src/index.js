@@ -214,7 +214,7 @@ class Main extends React.Component {
   render() {
     return (
       <div>
-        <h1>The Game of Life</h1>
+        <h1 className="title">THE GAME OF LIFE</h1>
         <Buttons
           playButton={this.playButton}
           pauseButton={this.pauseButton}
@@ -224,18 +224,20 @@ class Main extends React.Component {
           seed={this.seed}
           gridSize={this.gridSize}
         />
-        <h2>Generation: {this.state.generation}</h2>
+        <h2>GENERATION: {this.state.generation}</h2>
         <Grid
           gridFull={this.state.gridFull} // from our state
           rows={this.rows} // props from Grid
           cols={this.cols}
           selectBox={this.selectBox}
         />
-        <h5>Rules:</h5>
+        <div className="rules">
+        <h5>RULES:</h5>
         <p>1. Any live cell with fewer than two live neighbours dies, as if by underpopulation</p>
         <p>2. Any live cell with two or three live neighbours lives on to the next generation</p>
         <p>3. Any live cell with more than three live neighbours dies, as if by overpopulation</p>
         <p>4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction</p>
+        </div>
       </div>
     );
   }

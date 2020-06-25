@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/squares.png);
+  background-image: url(images/sandro-katalina-k1bO_VTiZSs-unsplash.jpg);
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -23,11 +23,11 @@ body {
 }
 
 .on {
-  background-color: green;
+  background-color: #3B0086;
 }
   
 .box:hover { 
-  background: #00CCFF;
+  background: #EA7AF4;
 }
 
 .center {
@@ -44,12 +44,14 @@ body {
   margin-top: 20px;
 }
   
-h1, h2, h3, h4, h5, p {
+h1, h2, h3, h4, h5 {
   color: white;
   margin: auto;
   text-align: center;
   width: 50%;
   margin-top: 10px;
+  padding: 10px;
+  font-family: "Russo One";
 }
 
 h4 {
@@ -63,6 +65,18 @@ h4 {
 footer {
   color: white;
   text-align: center;
+  margin-top: auto;
+}
+
+.rules {
   margin-top: 50px;
-  margin-bottom: 10px;
+}
+
+p {
+  color: white;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-top: 10px;
+  font-weight: bold;
 }
