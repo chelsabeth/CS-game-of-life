@@ -40,7 +40,7 @@
 4. The rules should be as simple as possible, whilst adhering to the above constraints
 
 
-## Building Your App
+## Building My App
 Visualizing the "Game of Life" 👇
 
 `The main entry point of your application should house the visualization of this cellular automaton. Include necessary components, such as:`
