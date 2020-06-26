@@ -1,5 +1,10 @@
 # CS-game-of-life
 
+
+## Hosted Website
+https://cs-game-of-life-mauve.vercel.app/
+
+
 ## Rubric
 `Your simulation will receive a 2 when it satisfies the following:`
 - [X] Display includes a text area that shows the current generation of cells being displayed
